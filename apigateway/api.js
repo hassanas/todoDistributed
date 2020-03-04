@@ -1,11 +1,19 @@
 exports.api = [
 	{
-		resource:"echo",
-		methods:[
+		resource: "accounts",
+		methods: [
 			{
-				method:"GET",
-				lambda:"echo",
-				parameters:["id"]
+				method: "POST",
+				lambda: "TodoCreateAccount-POST"
+			}
+		]
+	},
+	{
+		resource: "token",
+		methods: [
+			{
+				method: "POST",
+				lambda: "TodoLoginAccount-POST"
 			}
 		]
 	}

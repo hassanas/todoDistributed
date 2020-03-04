@@ -9,8 +9,10 @@
     "aws-sdk": "^2.176.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
+    "dotenv": "*",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "morgan": "~1.9.0",
-    "dotenv": "*"
+    "validator": "^12.2.0"
   }
 }
